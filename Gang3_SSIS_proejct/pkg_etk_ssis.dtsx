@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="pkg_etk_ssis"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{C889F6DE-FBE2-4B60-9871-61C099AAA4CC}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{EF4A6C3E-0BF4-4AA5-9E4C-C62F789953C9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1385,21 +1385,33 @@
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="164.571431374063,203.717649915887" />
+          TopLeft="150.285716845065,198.211767485728" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="247.542859989283,72.1882357231061">
+          TopLeft="244.914288604503,72.1882357231061">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,131.529414192781"
+              EndConnector="-9.02857175943825,126.023531762621"
               Start="0,0"
-              End="0,124.029414192781">
+              End="-9.02857175943825,118.523531762621">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,124.029414192781" />
+                    End="0,59.0117658813107" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,59.0117658813107"
+                    Point2="0,63.0117658813107"
+                    Point3="-4,63.0117658813107" />
+                  <mssgle:LineSegment
+                    End="-5.02857175943825,63.0117658813107" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.02857175943825,63.0117658813107"
+                    Point2="-9.02857175943825,63.0117658813107"
+                    Point3="-9.02857175943825,67.0117658813107" />
+                  <mssgle:LineSegment
+                    End="-9.02857175943825,118.523531762621" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1415,21 +1427,21 @@
         <NodeLayout
           Size="179.2,41.6"
           Id="Package\Data Flow Task\OLE DB Destination 1"
-          TopLeft="444.571436142435,193.317649770031" />
+          TopLeft="448.571436210555,192.094120341106" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="532.800007629395,69.7411768652576">
+          TopLeft="534.800007663454,69.7411768652576">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,123.576472904773"
+              EndConnector="0,122.352943475849"
               Start="0,0"
-              End="0,116.076472904773">
+              End="0,114.852943475849">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,116.076472904773" />
+                    End="0,114.852943475849" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
